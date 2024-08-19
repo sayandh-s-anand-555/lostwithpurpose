@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost  With Purpose</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+
+    <!--favicon-->
+    <link rel="icon" href="data:image/jpeg;base64,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">
+     <!--Font Awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--NAV BAR-->
+    <nav class="fixed-top">
+            <div class="roww">
+                <div class="col-5"><img width="300px" height="50px" src="https://www.lostwithpurpose.com/wp-content/themes/Wander-child/img/lwp-wordmark-menu-white.svg" alt=""></div>
+                <div class="col-7 ">
+                    <h6>Who am I ?</h6>
+                    <h6>Blog</h6>
+                    <h6>Destination</h6>
+                    <h6>Tips & Resouces</h6>
+                    <h6>Tours</h6>
+                    <h6>Contact</h6>
+                    <h6>Work</h6>
+                </div>
+            </div>
+    </nav>
+    <section>
+        <div class="sec1">
+            <img src="./pics/l 1.png" alt="" width="100%" height="820px">
+        </div>
+
+        <div class="sec2">
+            <div class="row">
+                <div class="col-3">.</div>
+                <div class="col-6">
+                    <br><br>
+                    <h2>Yo! I'm Alex.</h2><br>
+                    <p>
+                        I'm an Americian solo female traveller living out of
+                        a backpack since 2016, travelling to all kind of 
+                        places many tourist never consider. cultures call 
+                        to me, maps lie to me, and i'll go anywhere so 
+                        long as there are friendly faces and wild spaces.
+                    </p>
+                    <p>
+                        My goal is to inspire you to question stereotypes,
+                        travel responsibly... and see how girls can travel 
+                        anywhere.
+                    </p>
+                    <br>
+                    <a href=""><p>Want to know more?</p></a>
+                    <br><br><br>
+                    <h5 text-center>TOP DESTINATIONS</h5>
+                </div>
+                <div class="col-3">.</div>
+            </div>
+        </div>
+
+       <div class="sec3">
+        <div class="row">
+            <div class="col-12">
+                <img src="./pics/c1.png" alt="" class="img3">
+                <img src="./pics/c2.png" alt="" class="img3">
+                <img src="./pics/c3.png" alt="" class="img3">
+                <img src="./pics/c4.png" alt="" class="img3">
+            </div>
+        </div>
+       </div>
+
+       <div class="sec4">
+        <div class="row">
+            <div class="col12"><img src="./pics/l2.png" alt="" ></div>
+        </div>
+       </div>
+
+       <div class="sec5">
+        <div class="row">
+            <div class="col">
+                <h5 > JOIN ME ON TOUR?</h5>
+                <img src="./pics/cc1.png" alt="" class="img4">
+                <img src="./pics/cc2.png" alt="" class="img4">
+                <img src="./pics/cc3.png" alt="" class="img4">
+            </div>
+        </div>
+
+         <br><br><br>
+        <h5 > PEOPLES'S FAVORITE</h5><br>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="imgcard">
+                    <img src="./pics/d1.png" alt="" class="img5">
+                    <div class="card" style="width: 600px; height: 315px;">
+                        <div class="card-body">
+                          <h3 class="card-title"> Peril in the Pamir; my brush with death in Tajikistan (Part I) </h3> <br>
+                          <p class="card-text">Part I of my most terrifying travel experience to date: that time I accidentally almost died in a remote village in Tajikistan's Pamir mountains.</p> <br>
+                          <button> <a href=""><h4>READ MORE</h4></a></button>
+                        </div>
+                      </div>
+                </div>
+                <div class="imgcard">
+                    <img src="./pics/d2.png" alt="" class="img5">
+                    <div class="card" style="width: 600px; height: 315px;">
+                        <div class="card-body">
+                            <br>
+                          <h3 class="card-title"> New life, new chapter: breaking up on the road </h3> <br>
+                          <p class="card-text">The story behind the separation of Lost With Purpose, plus some love and advice about breaking up while traveling.</p> <br>
+                          <button> <a href=""><h4>READ MORE</h4></a></button>
+                        </div>
+                      </div>
+                </div>
+                <div class="imgcard">
+                    <img src="./pics/d3.png" alt="" class="img5">
+                    <div class="card" style="width: 600px; height: 315px;">
+                        <div class="card-body">
+                          <br><h3 class="card-title"> The great divide </h3> <br>
+                          <p class="card-text">A wake up call to the great divide between the many faces of a country, and what tourists do and do not see, in Thall, Pakistan.</p> <br>
+                          <button> <a href=""><h4>READ MORE</h4></a></button>
+                        </div>
+                      </div>
+                </div>
+                <div class="imgcard">
+                    <img src="./pics/d4.png" alt="" class="img5">
+                    <div class="card" style="width: 600px; height: 315px;">
+                        <div class="card-body">
+                          <br><h3 class="card-title"> How the f*%k do i pay for all this full-time travel </h3> <br>
+                          <p class="card-text">You all keep asking, so I might as well answer. Here's how I afford full-time travel… and how you can, too.</p> <br>
+                          <button> <a href=""><h4>READ MORE</h4></a></button>
+                        </div>
+                      </div>
+                </div>
+                <div class="imgcard">
+                    <img src="./pics/d5.png" alt="" class="img5">
+                    <div class="card" style="width: 600px; height: 315px;">
+                        <div class="card-body">
+                          <br><h3 class="card-title"> Paradise naught:the privilege of being o tourist</h3> <br>
+                          <p class="card-text">Tourist privilege couldn't be clearer, yet it's something we travelers often overlook. Let's not.</p> <br>
+                          <button> <a href=""><h4>READ MORE</h4></a></button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="sec7">
+        <img src="./pics/l3.png" alt="" class="img6">
+       </div>
+
+       <div class="sec8">
+        <div class="row">
+            <div class="col">
+                <h5 > LATEST AND GREATEST</h5>
+                <img src="./pics/cc4.png" alt="" class="img7">
+                <img src="./pics/cc5.png" alt="" class="img7">
+                <img src="./pics/cc6.png" alt="" class="img7">
+                <br><br>
+                <button class="btn1"> <a href=""><h4>READ MORE</h4></a></button> <br><br>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-3">
+                <h6>POPULAR POSTS</h6>
+                <p>What's in my camera bag?</p>
+                <p>How do I pay for full-time travel?</p>
+                <p>Is Bhutan really worth $250 per day?</p>
+                <p>Is Pakistan safe for travel?</p>
+                My brush with death in Tajikistan<p></p>
+            </div>
+            <div class="col-3">
+                <h6>TRAVEL GUIDES</h6>
+                <p>Afghanistan Travel Guide</p>
+                <p>Bhutan Travel Guide</p>
+                <p>Kyrgyzstan Winter Travel Guide</p>
+                <p>Pakistan Travel Guide</p>
+                <p>Saudi Arabia Travel Guide</p>
+            </div>
+            <div class="col-3">
+                <h6>SOMETHING ELSE?</h6>
+                <p>Blog</p>
+                <p>Who am I?</p>
+                <p>Tips and resources</p>
+                <p>Work with me</p>
+                <p>Contact</p>
+                <p>Tours</p>
+            </div>
+            <div class="col-3"></div> 
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <br><br>
+                <p class="para">  Disclaimer: FYI, I'm a participant in the Amazon Services LLC Associates Program, an affiliate  
+                    advertising program designed to provide a means for sites to earn advertising fees by advertising and 
+                    linking to amazon.com. I also use affiliate links for other brands and services throughout the blog 
+                    Don't worry, I only link to products I actually own or would buy myself.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <center>
+                <img src="https://www.lostwithpurpose.com/wp-content/themes/Wander-child/img/lwp-wordmark-menu-white.svg" alt="" width="200px" class="img8">
+                <p class="para">© 2024 Lost With Purpose • Legal shtuff</p></center>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

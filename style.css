@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    background-color: transparent;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+.roww{
+    display: flex;
+}
+.col-7{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    padding-bottom: 30px;
+}
+.sec2{
+    padding: 20px;
+}
+.sec2 p{
+    font-size: 20px;    
+    font-weight: 300;
+}
+.sec2 a{
+    text-decoration: none;
+    color: rgb(86, 86, 248);
+}
+.sec2 a :hover{
+    color: rgb(34, 34, 249);
+}
+.sec2 h5{
+    text-align: center;
+    color: rgb(169, 169, 169);
+    font-weight: 300;
+    
+}
+
+.sec3 img{
+    padding: 3px;
+    width: 356px;
+    height: 370px;
+}
+.sec3 .row{
+    display: flex;
+}
+
+
+.sec4 img{
+    width: 100%;
+}
+.sec5{
+    background-color: rgb(248, 248, 248);
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.sec5 h5,.sec8 {
+    text-align: center;
+    color: rgb(169, 169, 169);
+    font-weight: 300;
+}
+.img4{
+    padding: 10px;
+    width: 410px;
+    height: 400px;
+}
+.imgcard{
+    display: flex;
+    padding-left: 140px; 
+}
+.card p{
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    
+}
+button{
+    height: 57px;
+    width: 170px;
+    border-color: rgb(86, 86, 248);
+    background-color: rgb(86, 86, 248);
+}
+button :hover{
+    background-color: rgb(34, 34, 249);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.img5{
+    padding-right: 15px;
+    padding-bottom: 25px;
+    width: 340px;
+    height: 340px;
+}
+.img6{
+    width: 100%;
+}
+
+.sec8{
+    background-color: rgb(248, 248, 248);
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.img7{
+    padding: 10px;
+    width: 450px;
+    height: 400px;
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    color: grey;
+    padding: 20px;
+}
+
+.para{
+    padding-left: 370px;
+    padding-right: 360px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(82, 81, 81);
+}
+.img8{
+    border-left: 100px;
+}
+
+ .img7:hover, .img4:hover{
+    scale: 1.1;
+ }
+
+ .row  p:hover{
+    color: rgb(204, 204, 204);
+ }
